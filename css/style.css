@@ -856,6 +856,10 @@ a.article-title:hover {
 .article-share-links:after {
   clear: both;
 }
+.article-share-qq,
+.article-share-qzone,
+.article-share-weibo,
+.article-share-youdao,
 .article-share-twitter,
 .article-share-facebook,
 .article-share-pinterest,
@@ -868,6 +872,10 @@ a.article-title:hover {
   color: #999;
   text-shadow: 0 1px #fff;
 }
+.article-share-qq:before,
+.article-share-qzone:before,
+.article-share-weibo:before,
+.article-share-youdao:before,
 .article-share-twitter:before,
 .article-share-facebook:before,
 .article-share-pinterest:before,
@@ -883,11 +891,115 @@ a.article-title:hover {
   margin-left: -10px;
   text-align: center;
 }
+.article-share-qq:hover,
+.article-share-qzone:hover,
+.article-share-weibo:hover,
+.article-share-youdao:hover,
 .article-share-twitter:hover,
 .article-share-facebook:hover,
 .article-share-pinterest:hover,
 .article-share-google:hover {
   color: #fff;
+}
+.article-share-qq {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.article-share-qq:before {
+  content: "";
+}
+.article-share-qq:hover {
+  background: #00aced;
+  text-shadow: 0 1px #008abe;
+}
+.article-share-qzone {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.article-share-qzone:before {
+  content: "";
+}
+.article-share-qzone:hover {
+  background: #3b5998;
+  text-shadow: 0 1px #2f477a;
+}
+.article-share-weibo {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.article-share-weibo:before {
+  content: "";
+}
+.article-share-weibo:hover {
+  background: #cb2027;
+  text-shadow: 0 1px #a21a1f;
+}
+.article-share-youdao {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.article-share-youdao:before {
+  content: "";
+}
+.article-share-youdao:hover {
+  background: #dd4b39;
+  text-shadow: 0 1px #be3221;
 }
 .article-share-twitter:before {
   content: "\f099";
